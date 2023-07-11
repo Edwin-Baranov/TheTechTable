@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         emailTextView.setOnClickListener(view -> {
             Intent launchEmailAppIntent = new Intent(Intent.ACTION_SENDTO);
 
-            launchEmailAppIntent.setData(Uri.parse("mailto:TheTechTable@testemail.null"));
+            launchEmailAppIntent.setData(Uri.parse("mailto:TheTechTable@edwinbaranov.com"));
             startActivity(launchEmailAppIntent);
         });
 
