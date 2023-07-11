@@ -3,9 +3,9 @@ package com.edwinbaranov.thetechtable;
 import androidx.annotation.NonNull;
 
 public class Dish {
-    String title;
-    String description;
-    int price;
+    final String title;
+    final String description;
+    final int price;
 
     Dish(String title, String description, int price) {
         this.title = title;
